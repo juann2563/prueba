@@ -1,7 +1,6 @@
 'use strict'
 //improtan biliotecas para manejo de peticiones http y archivos json
 let express = require('express');
-let bodyParser = require('body-parser');
 //Ejecuto express
 let app = express();
 // Cargar archivo de rutas
