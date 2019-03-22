@@ -7,7 +7,7 @@ let app = express();
 let projectRoutes = require('./Routes/ProjectRoutes');
 
 app.use(express.urlencoded({extended:false}));
-app.set('port',process.env.PORT || 3001);
+app.set('port',process.env.PORT || 3000);
 //app.use(bodyParser.json());
 
 //rutas
